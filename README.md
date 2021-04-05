@@ -1,5 +1,6 @@
 # Coding-Quiz
-## Acceptance Criteria
+## Acceptance Criteria 
+```
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -15,3 +16,5 @@ THEN I can save my initials and my score
 
 
 The following coding quiz utilized Javascript, HTML, CSS.
+Deployed Application: https://amohamed77.github.io/Coding-Quiz/
+Repository: https://github.com/amohamed77/Coding-Quiz
