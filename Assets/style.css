@@ -1,0 +1,47 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  color: #000000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+section {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li {
+  background-color: #f0eeef;
+  border-style: solid;
+  border-color: #000000;
+  margin: 5px;
+  width: fit-content;
+}
+
+
+button:hover {
+  background-color: #0047cc;
+}
+
+#timer {
+  float: right;
+}
+
+div 
+{
+  text-align: center;
+}
+
+button {
+  border-radius: 15px;
+  background-color:#ffffff;
+  color: #000000;
+  
+}

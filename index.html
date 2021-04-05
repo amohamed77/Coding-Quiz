@@ -9,10 +9,35 @@
 </head>
 
 <body>
-  <h1>CODING QUIZ</h1>
-  <p>Click the button to start the quiz</p>
-  <div class="startbutton">
-    <button type="button">START</button>
+  <header>
+    <a href="highscore-page.html">View Highscores</a>
+    <p id="timer">Time: <span id="seconds"> 0</span></p>
+  </header>
+
+  <section class="start">
+    <h1>Coding Quiz Challenge</h1>
+
+    <button type="button" id="startquiz">Start Quiz</button>
+  </section>
+
+  <div id="displayQuestions">
+    <h1 id="question"></h1>
+    <ol class="list">
+      <li class="choices" id="question1"></li>
+      <li class="choices" id="question2"></li>
+      <li class="choices" id="question3"></li>
+      <li class="choices" id="question4"></li>
+    </ol>
+  </div>
+
+  <div class="gameover">
+    <h1>Game Over!</h1>
+    <p>Your final score is: <span id="score">equal to seconds left</span></p>
+    <form action="highscore-page.html">
+      Enter your name:
+      <input type="text" name="initials" id="initials">
+      <button type="submit" id="highscores" onclick="window.location.href = 'highscore-highscore-page.html'" >Submit</button>
+    </form>
   </div>
   <script src="./Assets/script.js"></script>
 </body>
